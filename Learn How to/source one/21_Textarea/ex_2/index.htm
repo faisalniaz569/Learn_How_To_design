@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Textarea examples</title>
+</head>
+
+<body>
+
+    <b>Autofocus:</b> <br><br>
+
+
+    <textarea rows="4" cols="50" autofocus>
+At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+</textarea> <br><br>
+
+    <b>Rows and Cols:</b> <br><br>
+
+    <textarea rows="4" cols="50">
+At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+</textarea> <br><br>
+
+
+    <b>Dirname:</b> <br><br>
+
+    <form action="action_page.php">
+        Text:<br>
+        <textarea name="explanation" dirname="explanation.dir"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+
+    <br><br>
+
+    <b>disabled:</b> <br><br>
+
+    <textarea disabled>
+At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+</textarea>
+
+
+    <br><br>
+
+    <b>form:</b> <br><br>
+
+    <form action="action_page2.php" id="usrform">
+        Name: <input type="text" name="usrname">
+        <input type="submit">
+    </form>
+    <br>
+    <textarea rows="4" cols="50" name="comment" form="usrform">
+Enter text here...</textarea>
+
+    <p>The text area above is outside the form element, but should still be a part of the form.</p>
+
+
+    <br><br>
+
+    <b>maxlength:</b> <br><br>
+
+    <textarea rows="4" cols="50" maxlength="50">
+Enter text here...</textarea>
+
+
+    <br><br>
+
+    <b>name:</b> <br><br>
+
+    <form action="action_page3.php">
+        <textarea rows="4" cols="50" name="comment">
+Enter text here...</textarea>
+        <input type="submit">
+    </form>
+
+    <br><br>
+
+    <b>Placeholder:</b> <br><br>
+
+    Who are you?
+    <textarea rows="4" cols="50" placeholder="Describe yourself here..."></textarea>
+
+    <br><br>
+
+    <b>readonly</b> <br><br>
+
+    <textarea rows="4" cols="50" readonly>
+At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+</textarea>
+
+
+    <br><br>
+
+    <b>required</b> <br><br>
+
+    <form action="action_page4.php">
+        <textarea rows="4" cols="50" name="comment" required>
+</textarea>
+        <input type="submit">
+    </form>
+
+
+
+    <br><br>
+
+    <b>wrap</b> <br><br>
+
+    <textarea rows="2" cols="20" name="usrtxt" wrap="hard">
+At W3Schools you will find free Web-building tutorials.
+</textarea>
+    <input type="submit">
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+/*
+    text-decoration
+    ================
+    
+    text-decoration-line,
+    text-decoration-color,
+    text-decoration-style,
+    text-decoration-thickness
+
+
+    # text-decoration-line: underline, overline, line-through, none
+    
+    # text-decoration-color: anycolor(red, green, blue), rgb(255, 0, 0), #ff00cc, rgba(255, 0, 0, 0.5)
+
+    # text-decoration-style: solid, dotted, dashed, double, wavy.
+
+    # text-decoration-thickness: 4px / 8px / 12px;
+
+    shorthand-property: 
+    text-decoration: text-decoration-line text-decoration-color text-decoration-style text-decoration-thickness|initial|inherit;
+
+    text-decoration-thickness (version 4)
+
+*/
+
+body {
+    text-align: center;
+}
+
+h1 {
+    text-decoration-line: underline;
+    -webkit-text-decoration-color: red; /* Safari */
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px;
+}
+
+h3 {
+    text-decoration: underline red wavy 5px;
+}
+
+
+
+

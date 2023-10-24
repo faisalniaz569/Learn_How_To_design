@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Triangle shape</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create four equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 25%;
+            padding: 10px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* up arrow */
+        .triangle-up {
+            width: 0;
+            height: 0;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            border-bottom: 50px solid #555;
+        }
+
+
+        /* right arrow */
+        .triangle-right {
+            width: 0;
+            height: 0;
+            border-top: 25px solid transparent;
+            border-left: 50px solid #555;
+            border-bottom: 25px solid transparent;
+        }
+
+
+        /* down arrow */
+        .triangle-down {
+            width: 0;
+            height: 0;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            border-top: 50px solid #555;
+        }
+
+
+        /* left arrow */
+        .triangle-left {
+            width: 0;
+            height: 0;
+            border-top: 25px solid transparent;
+            border-right: 50px solid #555;
+            border-bottom: 25px solid transparent;
+        }
+
+
+        /* upright arrow */
+        .triangle-upright {
+            width: 0px;
+            height: 0px;
+            border-style: solid;
+            border-width: 50px 0 0 50px;
+            border-color: transparent transparent transparent #555;
+            transform: rotate(0deg);
+        }
+
+        /* upleft arrow */
+        .triangle-upleft {
+            width: 0px;
+            height: 0px;
+            border-style: solid;
+            border-width: 0 0 50px 50px;
+            border-color: transparent transparent #555 transparent;
+            transform: rotate(0deg);
+        }
+
+        /* downright arrow */
+        .triangle-downright {
+            width: 0px;
+            height: 0px;
+            border-style: solid;
+            border-width: 50px 50px 0 0;
+            border-color: #555 transparent transparent transparent;
+            transform: rotate(0deg);
+        }
+
+        /* downleft arrow */
+        .triangle-downleft {
+            width: 0px;
+            height: 0px;
+            border-style: solid;
+            border-width: 0 50px 50px 0;
+            border-color: transparent #555 transparent transparent;
+            transform: rotate(0deg);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!--first row-->
+    <div class="row">
+        <div class="column">
+            <h2>Triangle Up CSS</h2>
+            <div class="triangle-up"></div>
+        </div>
+        <div class="column">
+            <h2>Triangle Right CSS</h2>
+            <div class="triangle-right"></div>
+        </div>
+        <div class="column">
+            <h2>Triangle Down CSS</h2>
+            <div class="triangle-down"></div>
+        </div>
+        <div class="column">
+            <h2>Triangle Left CSS</h2>
+            <div class="triangle-left"></div>
+        </div>
+    </div>
+
+    <!--second row-->
+    <div class="row">
+        <div class="column">
+
+            <h2>Triangle Up right CSS</h2>
+            <div class="triangle-upright"></div>
+
+        </div>
+        <div class="column">
+
+            <h2>Triangle Up left CSS</h2>
+            <div class="triangle-upleft"></div>
+
+        </div>
+        <div class="column">
+
+            <h2>Triangle Down right CSS</h2>
+            <div class="triangle-downright"></div>
+
+        </div>
+        <div class="column">
+
+            <h2>Triangle Down left CSS</h2>
+            <div class="triangle-downleft"></div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

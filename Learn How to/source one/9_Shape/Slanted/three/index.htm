@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Slanted div</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: impact;
+        }
+
+        .container {
+            height: 420px;
+            background-image: repeating-linear-gradient(-120deg, white, white 0, white 630px,
+                    #753894 250px, #753894);
+            border-left: white;
+        }
+
+        .imagediv {
+            width: 300px;
+            height: 150px;
+            border-radius: 50%;
+            border: 15px solid white;
+            margin-left: 500px;
+            margin-top: 100px;
+            background: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .image {
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: -30px;
+            max-width: 300px;
+            display: block;
+            margin: auto;
+        }
+
+        h1.title {
+            color: white;
+            font-family: impact;
+            font-size: 90px;
+            font-weight: 100;
+            margin-left: 100px;
+            margin-top: -195px;
+            position: relative;
+            letter-spacing: 3px;
+        }
+
+        .info {
+            font-family: tahoma;
+            font-size: 16px;
+            font-weight: bold;
+            margin-left: 100px;
+            margin-top: -40px;
+            text-transform: uppercase;
+            color: white;
+            letter-spacing: 3px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="main">
+        <div class="container">
+            <div class="imagediv">
+                <img src="jennifer-lawrence.jpg" alt="jen" class="image">
+            </div>
+        </div>
+
+        <h1 class="title">Slanted DIV</h1>
+        <p class="info">The Amazing Slanted DIV</p>
+
+    </div>
+
+
+</body>
+
+</html>

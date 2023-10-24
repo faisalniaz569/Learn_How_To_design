@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+
+.secondright {
+    width: 40%;
+}
+
+.secondleft {
+    width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.para {
+    width: 100%;
+    height: 200px;
+}
+
+h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+img {
+    float: left;
+    width: 25%;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.secondright .text {
+    float: right;
+    width: 70%;
+    display: inline-block;
+}
+
+h4 {
+    margin: 0;
+}
+
+
+

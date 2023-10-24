@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            position: relative;
+        }
+        
+        .topleft, .topright, .bottomleft, .bottomright,
+        .center {
+            position: absolute;
+            font-size: 18px;
+        }
+
+        .topleft {
+            top: 8px;
+            left: 16px;
+        }
+
+        .topright {
+            top: 8px;
+            right: 16px;
+        }
+
+        .bottomleft {
+            bottom: 8px;
+            left: 16px;
+        }
+
+        .bottomright {
+            bottom: 8px;
+            right: 16px;
+        }
+
+        .center {
+            top: 50%;
+            width: 100%;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            opacity: 0.3;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h2>Image Text</h2>
+    <p>Add some text to an image in the top left corner:</p>
+
+    <div class="container">
+        <img src="img_5terre_wide.jpg" alt="Cinque Terre" width="1000" height="300">
+        <div class="topleft">Top Left</div>
+        <div class="topright">Top Right</div>
+        <div class="bottomleft">Bottom Left</div>
+        <div class="bottomright">Bottom Right</div>
+        <div class="center">Centered</div>
+    </div>
+
+</body>
+
+</html>
