@@ -3,3 +3,11 @@ Xampp install -
 server: localhost/ 127.0.0.1
 
 This is Learn How to tutorial.
+
+git ignore files - 
+test.txt, 
+.env, 
+*.txt, 
+!main.txt, 
+test?.txt, 
+temp/
