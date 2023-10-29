@@ -2,10 +2,5 @@
 
 #This is Learn How to design websites.
 
-** git ignore files -  <br>
-test.txt, <br>
-.env, <br>
-*.txt, <br>
-!main.txt, <br>
-test?.txt, <br>
-temp/
+## License
+copyright © Md. Faisal Niaz, 2023
