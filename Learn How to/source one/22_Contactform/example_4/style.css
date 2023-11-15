@@ -41,7 +41,6 @@ p {
 .contact .col-50 {
     width: 50%;
     float: left;
-    padding-right: 5px;
 }
 
 input[type=text], input[type=email], input[type=tel], textarea {
@@ -68,15 +67,3 @@ input[type=text], input[type=email], input[type=tel], textarea {
     cursor: pointer;
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
